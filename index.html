@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main"> 
+        <div id="left" class="login_section">
+            <div class="vertical_center">
+                <img src="img/lightbulb.png" alt="Lightbulb: logo of company" class="logo_img">
+                <h1 class="logo_name">Placeholder</h1>
+                <p class="logo_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at molestie nibh. Nulla vel placerat dolor, venenatis fringilla velit. Quisque feugiat iaculis lacinia. </p>
+            </div>
+        </div>
+        <div id="right" class="login_section">
+            <div class="vertical_center">
+                <h2 class="section_header">Login</h2>
+                <form id="login_form" onsubmit="submitForm()" action="#">
+                <p class="input_wrap">
+                    <label name="email">Email</label><br>
+                    <input id="email" type="email"/>
+                </p>
+                <p class="input_wrap">
+                    <label name="password">Password</label><br>
+                    <input id="password" type="password"/>
+
+                </p>
+                
+                <p class="input_wrap" id="forgot_password">
+                    <a href="index.html">Forgot password?</a>
+                </p>
+                
+
+                <button type="submit" class="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

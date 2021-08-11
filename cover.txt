@@ -1,0 +1,18 @@
+1. html blank template (links, titles and more)
+2. h1, h2, h3 etc. tags
+3. images in html
+4. accessilibity in html (label elements, alt tags, etc.)
+5. displays (flexbox, absolute, relative)
+6. centering a div (vertically, horizontally, and both)
+    - transform
+7. backgrounds (color, images, etc.)
+8. responsive sizes (em, px, vh, vw, %)
+9. padding and margin, briefly
+    - shorthand
+10. border, and border radius
+11. grouping elements
+12. button responsiveness (changing colour)
+    - transition in css
+13. special effects (blur, grayscale, etc.) ???
+14. text-decoration
+15. fonts (google fonts, and importing)
