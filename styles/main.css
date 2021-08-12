@@ -1,8 +1,3 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    
-}
-
 #main {
     display: flex;
     flex-direction: row;
@@ -35,6 +30,7 @@ body {
     padding: 30px;
     background-color: rgb(49, 234, 183);
 }
+
 #right {
     width: 67%;
     text-align: center;
@@ -43,6 +39,8 @@ body {
 .logo_img {
     width: 10vw;
 }
+
+
 
 .vertical_center {
     /* center vertically */
@@ -71,6 +69,7 @@ p.input_wrap {
     text-align: left;
     width: 70%;
     margin: auto;
+    margin-bottom: 3vh;
 }
 
 .input_wrap label {
@@ -78,10 +77,12 @@ p.input_wrap {
 }
 input{
     width: 100%;
-    margin: 5px 5px 3vh 0;
+    margin: 3px;
     line-height: 2.3em;
     padding: 0 10px;
 }
+
+/* code stops here after padding and margin */
 button {
     height: 7vh;
     width: 60%;
@@ -100,6 +101,36 @@ button:active{
     background-color:rgb(23, 217, 162);
 }
 
+#email {
+    transition: 0.2s;
+}
+#emailerror{
+    display:none;
+}
+#email:invalid+#emailerror {
+    display:inline;
+    color: red;
+}
+#email:invalid{
+    border: 1px solid red;
+    color: red;
+}
+
+#password {
+    transition: 0.2s;
+}
+#pwderror{
+    display:none;
+}
+#password:invalid+#pwderror {
+    display:inline;
+    color: red;
+}
+#password:invalid{
+    border: 1px solid red;
+    color: red;
+}
+
 .horizontal_center {
     margin: auto;
 }
@@ -113,4 +144,9 @@ button:active{
 }
 #forgot_password a:hover {
     text-decoration: underline black solid;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
 }
